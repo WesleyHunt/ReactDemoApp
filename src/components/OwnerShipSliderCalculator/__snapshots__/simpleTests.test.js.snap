@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component UI snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="greyBoldText leftMarginStyling"
+  >
+    MONTHLY PAYMENT
+  </div>
+  <section
+    className="row leftMarginStyling"
+  >
+    <div
+      className="blackText"
+    >
+      $
+      0
+       +
+    </div>
+    <div
+      className="blueText"
+      style={
+        Object {
+          "marginLeft": "5px",
+        }
+      }
+    >
+      $
+      0
+       investment
+    </div>
+  </section>
+  <div
+    className="lineDivider"
+  />
+  <section
+    className="row"
+  >
+    <div
+      className="greyBoldText strikeThrough leftMarginStyling"
+    >
+      SECURITY DEPOSIT
+    </div>
+    <div
+      className="greyBoldText"
+    >
+       → INITIAL INVESTMENT
+    </div>
+  </section>
+  <div
+    className="blackText"
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  >
+    $
+    0
+  </div>
+  <span
+    className="MuiSlider-root WithStyles(ForwardRef(Slider))-root-1 MuiSlider-colorPrimary slider"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="MuiSlider-rail WithStyles(ForwardRef(Slider))-rail-4"
+    />
+    <span
+      className="MuiSlider-track WithStyles(ForwardRef(Slider))-track-3"
+      style={
+        Object {
+          "left": "0%",
+          "width": "NaN%",
+        }
+      }
+    />
+    <input
+      type="hidden"
+      value="NaN"
+    />
+    <span
+      aria-orientation="horizontal"
+      aria-valuemax={5000}
+      aria-valuemin={500}
+      aria-valuenow={NaN}
+      className="MuiSlider-thumb WithStyles(ForwardRef(Slider))-thumb-2 MuiSlider-thumbColorPrimary"
+      data-index={0}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      role="slider"
+      style={
+        Object {
+          "left": "NaN%",
+        }
+      }
+      tabIndex={0}
+    />
+  </span>
+  <div
+    className="greyBoldText leftTopMarginStyling"
+  >
+    MONTHLY INVESTMENT
+  </div>
+  <div
+    className="blackText"
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  >
+    $
+    0
+  </div>
+  <span
+    className="MuiSlider-root WithStyles(ForwardRef(Slider))-root-1 MuiSlider-colorPrimary slider"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="MuiSlider-rail WithStyles(ForwardRef(Slider))-rail-4"
+    />
+    <span
+      className="MuiSlider-track WithStyles(ForwardRef(Slider))-track-3"
+      style={
+        Object {
+          "left": "0%",
+          "width": "NaN%",
+        }
+      }
+    />
+    <input
+      type="hidden"
+      value="NaN"
+    />
+    <span
+      aria-orientation="horizontal"
+      aria-valuemax={400}
+      aria-valuemin={0}
+      aria-valuenow={NaN}
+      className="MuiSlider-thumb WithStyles(ForwardRef(Slider))-thumb-2 MuiSlider-thumbColorPrimary"
+      data-index={0}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      role="slider"
+      style={
+        Object {
+          "left": "NaN%",
+        }
+      }
+      tabIndex={0}
+    />
+  </span>
+  <div
+    className="greyBoldText leftTopMarginStyling"
+  >
+    YEARS WITH UP&UP
+  </div>
+  <div
+    className="blackText"
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  >
+    1
+     
+    year
+  </div>
+  <span
+    className="MuiSlider-root WithStyles(ForwardRef(Slider))-root-1 MuiSlider-colorPrimary slider"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="MuiSlider-rail WithStyles(ForwardRef(Slider))-rail-4"
+    />
+    <span
+      className="MuiSlider-track WithStyles(ForwardRef(Slider))-track-3"
+      style={
+        Object {
+          "left": "0%",
+          "width": "NaN%",
+        }
+      }
+    />
+    <input
+      type="hidden"
+      value="NaN"
+    />
+    <span
+      aria-orientation="horizontal"
+      aria-valuemax={5}
+      aria-valuemin={1}
+      aria-valuenow={NaN}
+      className="MuiSlider-thumb WithStyles(ForwardRef(Slider))-thumb-2 MuiSlider-thumbColorPrimary"
+      data-index={0}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      role="slider"
+      style={
+        Object {
+          "left": "NaN%",
+        }
+      }
+      tabIndex={0}
+    />
+  </span>
+  <div
+    className="greyBoldText leftTopMarginStyling"
+  >
+    OWNERSHIP VALUE
+  </div>
+  <div
+    className="blueTextLarge"
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginBottom": "7px",
+        "marginTop": "10px",
+      }
+    }
+  >
+    $
+    0
+  </div>
+  <div
+    className="greyText centerTextStyling"
+  >
+    Use your $
+    0
+     ownership stake as a down payment on any home, transfer it to your next up&up rental, or cash out.
+  </div>
+</div>
+`;
+
+exports[`Component UI snapshot with props 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="greyBoldText leftMarginStyling"
+  >
+    MONTHLY PAYMENT
+  </div>
+  <section
+    className="row leftMarginStyling"
+  >
+    <div
+      className="blackText"
+    >
+      $
+      2,400
+       +
+    </div>
+    <div
+      className="blueText"
+      style={
+        Object {
+          "marginLeft": "5px",
+        }
+      }
+    >
+      $
+      0
+       investment
+    </div>
+  </section>
+  <div
+    className="lineDivider"
+  />
+  <section
+    className="row"
+  >
+    <div
+      className="greyBoldText strikeThrough leftMarginStyling"
+    >
+      SECURITY DEPOSIT
+    </div>
+    <div
+      className="greyBoldText"
+    >
+       → INITIAL INVESTMENT
+    </div>
+  </section>
+  <div
+    className="blackText"
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  >
+    $
+    0
+  </div>
+  <span
+    className="MuiSlider-root WithStyles(ForwardRef(Slider))-root-1 MuiSlider-colorPrimary slider"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="MuiSlider-rail WithStyles(ForwardRef(Slider))-rail-4"
+    />
+    <span
+      className="MuiSlider-track WithStyles(ForwardRef(Slider))-track-3"
+      style={
+        Object {
+          "left": "0%",
+          "width": "NaN%",
+        }
+      }
+    />
+    <input
+      type="hidden"
+      value="NaN"
+    />
+    <span
+      aria-orientation="horizontal"
+      aria-valuemax={4000}
+      aria-valuemin={1200}
+      aria-valuenow={NaN}
+      className="MuiSlider-thumb WithStyles(ForwardRef(Slider))-thumb-2 MuiSlider-thumbColorPrimary"
+      data-index={0}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      role="slider"
+      style={
+        Object {
+          "left": "NaN%",
+        }
+      }
+      tabIndex={0}
+    />
+  </span>
+  <div
+    className="greyBoldText leftTopMarginStyling"
+  >
+    MONTHLY INVESTMENT
+  </div>
+  <div
+    className="blackText"
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  >
+    $
+    0
+  </div>
+  <span
+    className="MuiSlider-root WithStyles(ForwardRef(Slider))-root-1 MuiSlider-colorPrimary slider"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="MuiSlider-rail WithStyles(ForwardRef(Slider))-rail-4"
+    />
+    <span
+      className="MuiSlider-track WithStyles(ForwardRef(Slider))-track-3"
+      style={
+        Object {
+          "left": "0%",
+          "width": "NaN%",
+        }
+      }
+    />
+    <input
+      type="hidden"
+      value="NaN"
+    />
+    <span
+      aria-orientation="horizontal"
+      aria-valuemax={800}
+      aria-valuemin={0}
+      aria-valuenow={NaN}
+      className="MuiSlider-thumb WithStyles(ForwardRef(Slider))-thumb-2 MuiSlider-thumbColorPrimary"
+      data-index={0}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      role="slider"
+      style={
+        Object {
+          "left": "NaN%",
+        }
+      }
+      tabIndex={0}
+    />
+  </span>
+  <div
+    className="greyBoldText leftTopMarginStyling"
+  >
+    YEARS WITH UP&UP
+  </div>
+  <div
+    className="blackText"
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  >
+    1
+     
+    year
+  </div>
+  <span
+    className="MuiSlider-root WithStyles(ForwardRef(Slider))-root-1 MuiSlider-colorPrimary slider"
+    onMouseDown={[Function]}
+  >
+    <span
+      className="MuiSlider-rail WithStyles(ForwardRef(Slider))-rail-4"
+    />
+    <span
+      className="MuiSlider-track WithStyles(ForwardRef(Slider))-track-3"
+      style={
+        Object {
+          "left": "0%",
+          "width": "NaN%",
+        }
+      }
+    />
+    <input
+      type="hidden"
+      value="NaN"
+    />
+    <span
+      aria-orientation="horizontal"
+      aria-valuemax={5}
+      aria-valuemin={1}
+      aria-valuenow={NaN}
+      className="MuiSlider-thumb WithStyles(ForwardRef(Slider))-thumb-2 MuiSlider-thumbColorPrimary"
+      data-index={0}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      role="slider"
+      style={
+        Object {
+          "left": "NaN%",
+        }
+      }
+      tabIndex={0}
+    />
+  </span>
+  <div
+    className="greyBoldText leftTopMarginStyling"
+  >
+    OWNERSHIP VALUE
+  </div>
+  <div
+    className="blueTextLarge"
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginBottom": "7px",
+        "marginTop": "10px",
+      }
+    }
+  >
+    $
+    0
+  </div>
+  <div
+    className="greyText centerTextStyling"
+  >
+    Use your $
+    0
+     ownership stake as a down payment on any home, transfer it to your next up&up rental, or cash out.
+  </div>
+</div>
+`;

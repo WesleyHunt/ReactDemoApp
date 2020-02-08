@@ -1,0 +1,132 @@
+  .greyBoldText {
+    font-weight: bold;
+    font-size: 16px;
+    color: #949494;
+  }
+  
+  .blackSmallText {
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .centerTextStyling {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .leftHeaderMarginStyling {
+    margin-left: 30px;
+  }
+
+
+  .leftMarginStyling {
+    margin-left: 25px;
+  }
+
+  .leftTopMarginStyling {
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .strikeThrough {
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+  }
+  
+  .blackText {
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+
+  .blueText {
+    font-weight: 600;
+    font-size: 23px;
+    color: #00CFCC;
+  }
+
+  .blueTextLarge {
+    font-weight: bold;
+    font-size: 28px;
+    color: #00CFCC;
+  }
+  
+  .lineDivider {
+    background-color: #e9e9e9; 
+    height: 2px; 
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%; 
+  }
+
+  .row {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+  }
+
+  .container {
+    border-radius: 7px;
+    background-color: white;
+    border: 2px solid rgb(211, 211, 211);
+    margin: 15px;
+    padding-top: 10px;
+    width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .outerContainer{
+    flex-direction: row;
+    display: flex;
+  }
+
+  .innerContainer{
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    width: 95%;
+  }
+
+
+dot::before {
+  background: #e9e9e9;
+  content: '';
+  height: 80px;
+  width: 3px;
+  right: 7px;
+  bottom: 21px;
+  position: absolute;
+}
+
+dot {
+  height: 17px;
+  width: 17px;
+  background: #949494;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  bottom: 35px;
+  left: 5px;
+  display: inline-block;
+  position: relative;
+}
+dot:first-child::before {
+  display: none;
+}
+
+.dotContainer{
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 15px;
+  height: 425px;
+}
+
+ 
